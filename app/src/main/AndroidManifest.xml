@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RayoSimVerFinal">
         <activity
+            android:name=".ExamenRealizado"
+            android:exported="true" />
+        <activity
             android:name=".ConsolaComandos"
             android:exported="true" />
         <activity

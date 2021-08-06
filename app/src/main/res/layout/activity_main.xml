@@ -33,7 +33,7 @@
         android:layout_marginTop="696dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Iván Pino Ver. 0.02"
+        android:text="Iván Pino Ver. 0.05"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -31,6 +31,8 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         View view = layoutInflater.inflate(R.layout.custome_design,parent,false );
         ViewHolder viewHolder = new ViewHolder(view);
         return viewHolder;
+
+
     }
 
     @Override
@@ -62,4 +64,5 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             textView= itemView.findViewById(R.id.textNames);
         }
     }
+
 }

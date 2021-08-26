@@ -3,6 +3,7 @@ package com.example.rayosimverfinal;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 import java.util.Timer;
@@ -25,5 +26,7 @@ public class SplashScreen extends AppCompatActivity {
         };
         Timer tiempo = new Timer();
         tiempo.schedule(tarea, 5000 );
+
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }

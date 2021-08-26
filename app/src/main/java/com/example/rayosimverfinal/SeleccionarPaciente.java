@@ -39,7 +39,7 @@ public class SeleccionarPaciente extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(SeleccionarPaciente.this, ConsolaComandos.class);
+                Intent i = new Intent(SeleccionarPaciente.this, ConsolaComandosKotlin.class);
                 startActivity(i);
             }
         });

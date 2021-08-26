@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/drawable-v24/splash.xml" value="0.27395833333333336" />
         <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/drawable/button_rounded.xml" value="0.10092592592592593" />
         <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/layout/activity_consola_comandos.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/layout/activity_disclaimer.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/layout/activity_examen_realizado.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/layout/activity_seleccionar_paciente.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/layout/activity_splash_screen.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/pinoa/AndroidStudioProjects/RayoSimVerFinal/app/src/main/res/layout/custome_design.xml" value="0.33" />
       </map>
     </option>

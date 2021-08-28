@@ -60,14 +60,14 @@
         android:layout_marginBottom="18dp"
         android:background="#504B4B"
         android:backgroundTint="#2B2525"
-        app:layout_constraintBottom_toTopOf="@+id/view6"
+        app:layout_constraintBottom_toTopOf="@+id/viewMAS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
     <View
-        android:id="@+id/view6"
+        android:id="@+id/viewMAS"
         android:layout_width="160dp"
         android:layout_height="111dp"
         android:layout_marginStart="210dp"
@@ -114,7 +114,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view10"
+        android:id="@+id/viewDistancia"
         android:layout_width="162dp"
         android:layout_height="110dp"
         android:layout_marginStart="40dp"
@@ -129,7 +129,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view5"
+        android:id="@+id/viewKV"
         android:layout_width="162dp"
         android:layout_height="110dp"
         android:layout_marginStart="40dp"
@@ -178,7 +178,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <View
-        android:id="@+id/view8"
+        android:id="@+id/viewFiltro"
         android:layout_width="160dp"
         android:layout_height="111dp"
         android:layout_marginStart="210dp"
@@ -344,7 +344,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/botonaexamenrealizado"
+        android:id="@+id/botonaexamenrealizadokt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="268dp"

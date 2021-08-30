@@ -22,7 +22,7 @@ public class Disclaimer extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(Disclaimer.this, SeleccionarPaciente.class); //No puedo entrar a la clase seleccionar_paciente, con otras clases si me funciona
+                Intent i = new Intent(Disclaimer.this, InstruccionesKotlin.class);
                 startActivity(i);
             }
         });

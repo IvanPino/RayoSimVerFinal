@@ -34,6 +34,7 @@ class ConsolaComandosKotlin : AppCompatActivity() {
 
         botonaexamenrealizadokt!!.setOnClickListener {
             startActivity(Intent(this, ExamenRealizadoKotlin::class.java))
+
         }
         //Boton de cambio de Actividad
 

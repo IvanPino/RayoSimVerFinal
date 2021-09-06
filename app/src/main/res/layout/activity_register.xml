@@ -13,7 +13,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:gravity="center"
-        android:orientation="vertical"/>
+        android:orientation="vertical" />
 
 
     <LinearLayout
@@ -27,52 +27,67 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_top"
+            android:hint="Nombre y Apellido"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
 
         <EditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/edit_text_top"
+            android:background="@drawable/edit_text_middle"
             android:hint="Correo"
-            android:inputType="textPersonName"
+            android:inputType="textEmailAddress"
             android:padding="15dp" />
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/edit_text_bottom"
+            android:background="@drawable/edit_text_middle"
             android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/editTextCnfPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_middle"
+            android:hint="Repetir Contraseña"
             android:inputType="textPassword"
             android:padding="15dp" />
 
 
         <Button
-            android:id="@+id/buttonLogin"
+            android:id="@+id/buttonRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="@drawable/button"
             android:foreground="?android:attr/selectableItemBackground"
-            android:text="INGRESAR"
+            android:text="REGISTRARSE"
             android:textAllCaps="false"
             android:textColor="#FE5295"
             android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/textViewRegister"
+            android:id="@+id/textViewLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:fontFamily="sans-serif"
             android:padding="10dp"
-            android:text="¿No tienes una cuenta? REGISTRATE"
+            android:text="¿Ya tienes una cuenta? INGRESA"
             android:textAllCaps="true"
             android:textColor="#FAD0E1"
             android:textSize="13dp"
             android:textStyle="bold" />
 
-
     </LinearLayout>
-
 </RelativeLayout>

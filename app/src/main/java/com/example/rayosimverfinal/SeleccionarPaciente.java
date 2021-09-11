@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import RecyclerObsoleto.RecyclerAdapter;
+
 public class SeleccionarPaciente extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerAdapter adapter;

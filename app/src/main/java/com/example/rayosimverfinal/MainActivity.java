@@ -32,13 +32,11 @@ public class MainActivity extends AppCompatActivity {
         buttonLogin = findViewById(R.id.buttonLogin);
 
         textViewRegister = findViewById(R.id.textViewRegister);
-
         dataBase = Room.databaseBuilder(this, UserDataBase.class, "mi-database.db")
                 .allowMainThreadQueries()
                 .build();
 
         db = dataBase.getUserDao();
-
 
         textViewRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
 
     }
 }

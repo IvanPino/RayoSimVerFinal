@@ -28,5 +28,9 @@ public class SplashScreen extends AppCompatActivity {
         tiempo.schedule(tarea, 5000 );
 
         this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+
+
+
     }
 }

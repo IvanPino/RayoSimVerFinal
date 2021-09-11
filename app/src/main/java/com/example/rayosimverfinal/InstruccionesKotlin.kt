@@ -44,11 +44,8 @@ class InstruccionesKotlin : AppCompatActivity() {
         button3reanudar!!.setOnClickListener {
             b= true
         }
-
-
     }
 }
-
 class HiloUno(activity: InstruccionesKotlin) :Thread(){
     var i = 0
     var act = activity

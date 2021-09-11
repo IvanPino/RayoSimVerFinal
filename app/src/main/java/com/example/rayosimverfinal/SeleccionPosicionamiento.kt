@@ -28,7 +28,7 @@ class SeleccionPosicionamiento : AppCompatActivity() {
             startActivity(Intent(this, ConsolaComandosKotlin::class.java))}
 
         btnRoll2.setOnClickListener {
-            startActivity(Intent(this, UserlistActivity::class.java))} //Este boton debe ir a la base de datos (recyclerview u otro) INSERTAR LA CLASE AQUI::class.java
+            startActivity(Intent(this, UserlistActivity::class.java))}
 
         btnRoll.setOnClickListener { mainViewModel.onBtnRollPressed() }
 

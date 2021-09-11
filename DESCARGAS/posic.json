@@ -1,0 +1,40 @@
+{
+   "Users":{
+      "1":{
+         "posicionamiento":"MANO AP",
+         "kv":"60",
+         "mas":"2",
+         "distancia":"100cm"
+      },
+      "3":{
+         "posicionamiento":"MANO PA",
+         "kv":"60",
+         "mas":"2",
+         "distancia":"100cm"
+      },
+      "4":{
+         "posicionamiento":"CODO",
+         "kv":"70",
+         "mas":"3",
+         "distancia":"100cm"
+      },
+      "5":{
+         "posicionamiento":"CRANEO",
+         "kv":"90",
+         "mas":"4",
+         "distancia":"100cm"
+      },
+      "6":{
+         "posicionamiento":"TORAX PA",
+         "kv":"120",
+         "mas":"10",
+         "distancia":"100cm"
+      },
+      "7":{
+         "posicionamiento":"TORAX LAT",
+         "kv":"120",
+         "mas":"10",
+         "distancia":"100cm"
+      }
+   }
+}

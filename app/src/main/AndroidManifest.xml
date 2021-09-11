@@ -10,17 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RayoSimVerFinal">
         <activity
-            android:name=".InstruccionesKotlin"
+            android:name=".UserlistActivity"
             android:exported="true"
             android:theme="@style/Theme.RayoSimVerFinal2"/>
+        <activity
+            android:name=".InstruccionesKotlin"
+            android:exported="true"
+            android:theme="@style/Theme.RayoSimVerFinal2" />
         <activity
             android:name=".ExamenRealizadoKotlin"
             android:exported="true"
-            android:theme="@style/Theme.RayoSimVerFinal2"/>
+            android:theme="@style/Theme.RayoSimVerFinal2" />
         <activity
             android:name=".ConsolaComandosKotlin"
             android:exported="true"
-            android:theme="@style/Theme.RayoSimVerFinal2"/>
+            android:theme="@style/Theme.RayoSimVerFinal2" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -36,15 +40,19 @@
         <activity
             android:name=".SeleccionarPaciente"
             android:exported="true"
-            android:theme="@style/Theme.RayoSimVerFinal2"/>
+            android:theme="@style/Theme.RayoSimVerFinal2" />
         <activity
             android:name=".RegisterActivity"
             android:exported="true"
-            android:theme="@style/Theme.RayoSimVerFinal2"/>
+            android:theme="@style/Theme.RayoSimVerFinal2" />
         <activity
             android:name=".HomeActivity"
             android:exported="true"
-            android:theme="@style/Theme.RayoSimVerFinal2"/>
+            android:theme="@style/Theme.RayoSimVerFinal2" />
+        <activity
+            android:name=".SeleccionPosicionamiento"
+            android:exported="true"
+            android:theme="@style/Theme.RayoSimVerFinal2" />
         <activity
             android:name=".Disclaimer"
             android:exported="true"

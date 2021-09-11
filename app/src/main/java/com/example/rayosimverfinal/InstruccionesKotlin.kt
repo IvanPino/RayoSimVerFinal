@@ -30,7 +30,7 @@ class InstruccionesKotlin : AppCompatActivity() {
         frases = findViewById(R.id.frases)
 
         btnarecycler!!.setOnClickListener {
-            startActivity(Intent(this, ExamenRealizadoKotlin::class.java))
+            startActivity(Intent(this, SeleccionPosicionamiento::class.java))
         }
 
         buttoniniciar!!.setOnClickListener {

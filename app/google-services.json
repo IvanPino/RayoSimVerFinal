@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "455258897752",
+    "project_id": "rayosimverfinal",
+    "storage_bucket": "rayosimverfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455258897752:android:3c5fc286a7951b6e3df92d",
+        "android_client_info": {
+          "package_name": "com.example.rayosimverfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455258897752-a1dcd9vpm0e15tvcdvp7prsfh790u46o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADSGVz2vZlFpbtq-sEmgI96ovufWoRNVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455258897752-a1dcd9vpm0e15tvcdvp7prsfh790u46o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
